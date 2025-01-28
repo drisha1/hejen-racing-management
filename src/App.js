@@ -14,13 +14,13 @@ function App() {
     <Router>
       <MainLayout>
         <Routes>
-          <Route path="/hejen-racing-management/" element={<Dashboard />} />
-          <Route path="/hejen-racing-management/assets" element={<AssetList />} />
-          <Route path="/hejen-racing-management/assets/new" element={<AssetForm />} />
-          <Route path="/hejen-racing-management/contracts" element={<ContractList />} />
-          <Route path="/hejen-racing-management/payments" element={<PaymentList />} />
-          <Route path="/hejen-racing-management/tenants" element={<TenantList />} />
-          <Route path="/hejen-racing-management/tenants/new" element={<TenantForm />} />
+          <Route path="/" element={<Dashboard />} />
+          <Route path="/assets" element={<AssetList />} />
+          <Route path="/assets/new" element={<AssetForm />} />
+          <Route path="/contracts" element={<ContractList />} />
+          <Route path="/payments" element={<PaymentList />} />
+          <Route path="/tenants" element={<TenantList />} />
+          <Route path="/tenants/new" element={<TenantForm />} />
         </Routes>
       </MainLayout>
     </Router>
