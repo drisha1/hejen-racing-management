@@ -1,9 +1,9 @@
 export const ROUTES = {
-    DASHBOARD: '/hejen-racing-management/',
-    ASSETS: '/hejen-racing-management/assets',
-    CONTRACTS: '/hejen-racing-management/contracts',
-    PAYMENTS: '/hejen-racing-management/payments',
-    TENANTS: '/hejen-racing-management/tenants',
+    DASHBOARD: '/',
+    ASSETS: '/assets',
+    CONTRACTS: '/contracts',
+    PAYMENTS: '/payments',
+    TENANTS: '/tenants',
   };
   
   export const MENU_ITEMS = [

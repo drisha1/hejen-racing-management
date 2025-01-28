@@ -7,7 +7,7 @@ export const Header = () => {
   return (
     <header className="bg-white shadow-sm">
       <div className="max-w-7xl mx-auto px-4 py-4">
-        <div className="flex items-center gap-4 cursor-pointer" onClick={() => navigate('/hejen-racing-management/')}>
+        <div className="flex items-center gap-4 cursor-pointer" onClick={() => navigate('/')}>
           <img 
             src="/hejen-racing-management/logo.jpg"
             alt="Hejen Racing Committee Logo" 
