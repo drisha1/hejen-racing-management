@@ -9,7 +9,9 @@ export const Header = () => {
       <div className="max-w-7xl mx-auto px-4 py-4">
         <div className="flex items-center gap-4 cursor-pointer" onClick={() => navigate('/')}>
           <img 
-            src="/logo.jpg"
+            src="./hejen-racing-management/logo.jpg"
+            // OR if that doesn't work, try:
+            // src="/hejen-racing-management/logo.jpg"
             alt="Hejen Racing Committee Logo" 
             className="h-12"
           />
