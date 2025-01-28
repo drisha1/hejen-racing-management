@@ -73,7 +73,7 @@ export const AssetForm = () => {
           <Button 
             type="button"
             variant="outline" 
-            onClick={() => navigate('/assets')}
+            onClick={() => navigate('/hejen-racing-management/assets')}
           >
             إلغاء
           </Button>

@@ -14,8 +14,8 @@ function App() {
     <Router>
       <MainLayout>
         <Routes>
-          <Route path="/" element={<Dashboard />} />
-          <Route path="/assets" element={<AssetList />} />
+          <Route path="/hejen-racing-management/" element={<Dashboard />} />
+          <Route path="/hejen-racing-management/assets" element={<AssetList />} />
           <Route path="/assets/new" element={<AssetForm />} />
           <Route path="/contracts" element={<ContractList />} />
           <Route path="/payments" element={<PaymentList />} />

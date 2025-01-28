@@ -19,7 +19,7 @@ export const TenantForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setTenants([...tenants, { ...newTenant, id: Date.now() }]);
-    navigate('/tenants');
+    navigate('/hejen-racing-management/tenants');
   };
 
   return (
@@ -66,7 +66,7 @@ export const TenantForm = () => {
           <Button 
             type="button"
             variant="outline" 
-            onClick={() => navigate('/tenants')}
+            onClick={() => navigate('/hejen-racing-management/tenants')}
           >
             إلغاء
           </Button>
