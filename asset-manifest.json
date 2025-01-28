@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/hejen-racing-management/static/css/main.fc2433d1.css",
-    "main.js": "/hejen-racing-management/static/js/main.ba70478f.js",
+    "main.js": "/hejen-racing-management/static/js/main.ed6ed87d.js",
     "static/js/488.0754cce6.chunk.js": "/hejen-racing-management/static/js/488.0754cce6.chunk.js",
     "index.html": "/hejen-racing-management/index.html",
     "main.fc2433d1.css.map": "/hejen-racing-management/static/css/main.fc2433d1.css.map",
-    "main.ba70478f.js.map": "/hejen-racing-management/static/js/main.ba70478f.js.map",
+    "main.ed6ed87d.js.map": "/hejen-racing-management/static/js/main.ed6ed87d.js.map",
     "488.0754cce6.chunk.js.map": "/hejen-racing-management/static/js/488.0754cce6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fc2433d1.css",
-    "static/js/main.ba70478f.js"
+    "static/js/main.ed6ed87d.js"
   ]
 }
