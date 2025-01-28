@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { MainLayout } from './components/layout/MainLayout';
 import { Dashboard } from './components/modules/Dashboard';
 import { AssetList } from './components/modules/assets/AssetList';
@@ -16,11 +16,11 @@ function App() {
         <Routes>
           <Route path="/hejen-racing-management/" element={<Dashboard />} />
           <Route path="/hejen-racing-management/assets" element={<AssetList />} />
-          <Route path="/assets/new" element={<AssetForm />} />
-          <Route path="/contracts" element={<ContractList />} />
-          <Route path="/payments" element={<PaymentList />} />
-          <Route path="/tenants" element={<TenantList />} />
-          <Route path="/tenants/new" element={<TenantForm />} />
+          <Route path="/hejen-racing-management/assets/new" element={<AssetForm />} />
+          <Route path="/hejen-racing-management/contracts" element={<ContractList />} />
+          <Route path="/hejen-racing-management/payments" element={<PaymentList />} />
+          <Route path="/hejen-racing-management/tenants" element={<TenantList />} />
+          <Route path="/hejen-racing-management/tenants/new" element={<TenantForm />} />
         </Routes>
       </MainLayout>
     </Router>
